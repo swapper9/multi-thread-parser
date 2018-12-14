@@ -24,7 +24,7 @@ public class Links2Database {
     }
 
     public static void main(String[] args) {
-        String startUrl = "https://habr.com/hubs/design/";
+        String startUrl = "https://en.wikipedia.org/wiki/Java_(programming_language)";
         Document doc = parsePage(startUrl);
         Elements links = doc.select("a[href]");
 
